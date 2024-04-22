@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #a5baeb, #efb2bc);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.todo-app {
+    background-color: #fff;
+    max-width: 540px;
+    width: 100%;
+    margin: 120px auto 100px;
+    padding: 20px 30px 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgb(101, 101, 101);
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    margin: 10px 0 20px;
+    justify-content: space-between;
+    outline: 3px groove rgba(101, 101, 101, 0.453);
+    outline-offset: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: violet;
+    user-select: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: #749af4;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-block: 10px;
+    padding: 0 5px 0 5px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+i {
+    margin-right: 5px;
+}
+
+i.fa-solid.fa-circle-check {
+    color: #89e689;
+}
